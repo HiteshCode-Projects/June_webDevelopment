@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            gap: 20px;  
+            align-items: center;
+            flex-wrap: wrap;
+        }
+ 
+        .product{
+            border: 1px solid brown;
+            border-radius: 12px;
+            padding: 12px;
+           
+            height: 300px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 4px 4px 8px black;
+            
+        }
+
+        .product img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        button{
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+
+        .product:hover{
+            transform: rotateY(200deg);
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/20385205/pexels-photo-20385205.jpeg"  height="150" width="200">
+        <h2>Headphone</h2>
+        <p>Rs 2,499</p>
+        <button>Buy Now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://images.pexels.com/photos/260044/pexels-photo-260044.jpeg" height="150" width="200">
+        <h2>Shoes</h2>
+        <p>Rs 5,000</p>
+        <button>Buy Now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://images.pexels.com/photos/8762862/pexels-photo-8762862.jpeg"  height="150" width="200">
+        <h2>Books</h2>
+        <p>Rs 1,111</p>
+        <button>Buy Now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://images.pexels.com/photos/5793947/pexels-photo-5793947.jpeg" height="150" width="200">
+        <h2>Laptop</h2>
+        <p>Rs 40,000</p>
+        <button>Buy Now</button>
+    </div>
+
+    
+</body>
+</html>
